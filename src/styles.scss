@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial;
+    margin: 0 1em;
+    background-color: black;
+    color: white;
+}
+
+.flex-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+
+    > h1,
+    > h2 {
+        margin: 0;
+    }
+}
